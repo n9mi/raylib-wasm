@@ -54,8 +54,9 @@ source ./emsdk_env.sh
 
 Don't forget to update the PATH by add this few lines to `.bashrc`
 ```bash
-export PATH=$PATH:~/emsdk
-export PATH=$PATH:~/emsdk/upstream/emscripten
+export PATH=$PATH:$HOME/emsdk
+export PATH=$PATH:$HOME/emsdk/node/20.18.0_64bit/bin
+export PATH=$PATH:$HOME/emsdk/upstream/emscripten
 ```
 and apply the changes
 ```bash
